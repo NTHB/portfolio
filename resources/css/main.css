@@ -2,6 +2,25 @@ body{
     margin: 0;
     padding: 0;
 }
-h1{
+
+.introduction img {
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+
+  opacity: 0.3;
+}
+.introduction h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     color: cornflowerblue;
+
+    font-family: 'Nunito',Arial, Helvetica, sans-serif;
+
+    font-size: 4rem;
+    text-transform: uppercase;
 }
