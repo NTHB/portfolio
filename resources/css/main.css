@@ -9,18 +9,52 @@ body{
 
   position: relative;
 
-  opacity: 0.3;
+  opacity: 0.8;
 }
-.introduction h1{
+.welcome {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    color: cornflowerblue;
-
+    
     font-family: 'Nunito',Arial, Helvetica, sans-serif;
+}
 
-    font-size: 4rem;
-    text-transform: uppercase;
+.welcome h1{
+  font-size: 4rem;
+  text-transform: uppercase;
+  background-color: 59624E;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+.welcome p{
+  padding: 1rem;
+  font-size: 2rem;
+  color: antiquewhite;
+}
+
+.nav-area{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.nav-area li {
+  float: left;
+  list-style: none;
+  margin: 1rem;
+}
+
+.nav-area a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: 'Nunito',Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+.nav-area a:hover {
+  color: orange;
 }
