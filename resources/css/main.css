@@ -3,25 +3,53 @@ body{
     padding: 0;
 }
 
-.introduction img {
-  width: 100%;
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.introduction{
+  background: url("../images/marta-jastrzebska-1696235-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   height: 100vh;
+  opacity: 0.8;
 
   position: relative;
-
-  opacity: 0.8;
+}
+.nav {
+  float: right;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+.icon {
+  color: antiquewhite;
+  font-size: 30px;
+}
+.nav-area{
+  display: none;
+}
+.nav-area a {
+  
+  color: antiquewhite;
+  font-family: 'Nunito',Arial, Helvetica, sans-serif;
+  display: block;
 }
 .welcome {
-    position: absolute;
+    padding-top: 35vh;
+    /* position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
     
     font-family: 'Nunito',Arial, Helvetica, sans-serif;
 }
 
-.welcome h1{
-  font-size: 4rem;
+ .welcome h1{
+  font-size: 2.5rem;
   text-transform: uppercase;
   background-color: 59624E;
   color: white;
@@ -32,28 +60,9 @@ body{
 
 .welcome p{
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: antiquewhite;
-}
-
-.nav-area{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-
-.nav-area li {
-  float: left;
-  list-style: none;
-  margin: 1rem;
-}
-
-.nav-area a {
-  text-decoration: none;
-  color: antiquewhite;
-  font-family: 'Nunito',Arial, Helvetica, sans-serif;
-  display: block;
-}
+} 
 
 .nav-area a:hover {
   color: orange;
