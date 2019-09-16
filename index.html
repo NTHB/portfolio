@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="resources/css/main.css">
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:600&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/ac03623ef0.js"></script>
     </head>
     <body>
         <header>
@@ -60,7 +62,7 @@
             </div>
         </section>
         <section id="projects">
-            <div class="row">
+            <div class="row project-container">
                 <div class="col-lg-12">
                     <h2>Projects</h2>
                 </div>
@@ -97,16 +99,125 @@
                 </div>
             </div>  
         </section>
-        <!-- <div class="main">
-            <div class="skill">
-                <h2 class="skill-title">Skills</h2>
+        <section id="skills">
+            <div class="row skill-container">
+                <div class="col-lg-12">
+                    <h2>Skills</h2>
+                </div>
+                <div class="col-lg-12">
+                    <div id="skill-carousel" class="carousel slide" data-ride="false">
+                        <ol class="carousel-indicators">
+                            <li data-target="#skill-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#skill-carousel" data-slide-to="1"></li>
+                            <li data-target="#skill-carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h3>Front-End</h3>
+                                <div class="container-fluid">
+                                    <div class="row align-items-end">
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/html5.png" alt="html logo">
+                                            <p>HTML</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/css3.png" alt="css logo">
+                                            <p>CSS</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/javascript.svg" alt="javascript logo">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/reactjs.png" alt="react logo">
+                                            <p>ReactJS</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/sass.png" alt="sass logo">
+                                            <p>SASS</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/jquery.png" alt="jquery logo">
+                                            <p>jQuery</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./resources/images/logo/bootstrap.svg" alt="bootstrap logo">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>Server-Side</h3>
+                                <div class="container-fluid">
+                                    <div class="row align-items-end">
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/nodejs.png" alt="nodejs logo">
+                                            <p>Node.js</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/java.png" alt="java logo">
+                                            <p>Java</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/django.png" alt="django">
+                                            <p>Django</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/php.png" alt="php logo">
+                                            <p>PHP</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>Cloud</h3>
+                                <div class="container-fluid">
+                                    <div class="row align-items-end">
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/gcp.png" alt="google cloud platform logo">
+                                            <p>GCP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/aws.png" alt="Amazon Web Service logo">
+                                            <p>AWS</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./resources/images/logo/salesforce.png" alt="salesforce logo">
+                                            <p>SFDC</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#skill-carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon prev-arrow-dk" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#skill-carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon next-arrow-dk " aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-
-            <div class="contact-area">
-                <h2 class="contact-title">Contact me</h2>
+        </section>
+        <footer id="contact">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Contact</h2>
+                </div>
+                <div class="col-lg-12 contact-link">
+                    <a href="https://github.com/NTHB"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <div class="col-lg-12 contact-link">
+                    <a href="https://www.linkedin.com/in/noppawith/"><i class="fab fa-linkedin"></i> Linkedin</a>
+                </div>
+                <div class="col-lg-12 contact-link">
+                    <a href="mailto:noppawit.han@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                </div>
             </div>
-        </div> -->
-        
+        </footer>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

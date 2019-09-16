@@ -78,6 +78,10 @@ h1, h2, h3 {
   text-align: center;
 }
 
+.project-container, .skill-container {
+  margin: 0;
+}
+
 #projects h2 {
   color: #484848;
   margin-bottom: 1.5rem;
@@ -98,4 +102,40 @@ h1, h2, h3 {
 
 .project-description {
   margin-bottom: 25px;
+}
+
+#skills {
+  text-align: center;
+  padding: 2rem 0;
+  min-height: 75vh;
+}
+
+.prev-arrow-dk {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.next-arrow-dk {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#contact {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(9,77,116,1) 50%);
+
+  padding: 15%;
+  text-align: center;
+}
+
+#contact h2 {
+  color: aliceblue;
+  font-size: 2.5rem;
+}
+
+.contact-link {
+  margin: 10px 0;
+}
+
+.contact-link a {
+  color: aliceblue;
+  font-size: 1.5rem;
 }
