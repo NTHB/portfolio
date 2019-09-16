@@ -76,6 +76,8 @@ h1, h2, h3 {
 
   padding: 5rem 0;
   text-align: center;
+
+  min-height: 75vh;
 }
 
 .project-container, .skill-container {
@@ -138,4 +140,19 @@ h1, h2, h3 {
 .contact-link a {
   color: aliceblue;
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 992px){
+  .navbar {
+    padding: 1rem 15%;
+  }
+
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+  #introduction{
+    height: auto;
+    padding: 0 10% 5% 0;
+  }
 }
